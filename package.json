@@ -1,0 +1,33 @@
+{
+  "name": "insomnia-plugin-ethos-access-token",
+  "version": "0.1.0",
+  "author": "Rodolfo Roman <rromanv@gmail.com>",
+  "description": "Unofficial Ellucian Ethos Plugin to generate Access Token for Insomnia",
+  "license": "MIT",
+  "repository": "https://github.com/rromanv/insomnia-plugin-ethos-access-token",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "ethos",
+    "ellucian"
+  ],
+  "insomnia": {
+    "name": "ethos-access-token",
+    "displayName": "Unofficial Ellucian Ethos Access Token",
+    "description": "Unofficial Ellucian Ethos Plugin to generate Access Token for Insomnia",
+    "images": {
+      "icon": "./assets/ellucian-square-logo.png"
+    }
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "tsup": "^6.2.0"
+  }
+}
